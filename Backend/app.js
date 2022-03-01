@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 
 //connecting the database
 mongoose.connect(
-  "mongodb://127.0.0.1:27017/valueEnable",
+  "mongodb+srv://Kabi:kabi@123@cluster0.2dc20.mongodb.net/tribeuserbase?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
